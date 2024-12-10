@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Définition du fichier XML  -->
+<contacts>
+
+    <contact>
+        <nom>Jean Dupont</nom>
+        <telephone>06 12 34 56 78</telephone>
+        <email>jean.dupont@example.com</email>
+    </contact>
+   
+    <contact>
+        <nom>Marie Curie</nom>
+        <telephone>06 23 45 67 89</telephone>
+        <email>marie.curie@example.com</email>
+    </contact>
+ 
+    <contact>
+        <nom>Albert Einstein</nom>
+        <telephone>06 34 56 78 90</telephone>
+        <email>albert.einstein@example.com</email>
+    </contact>
+</contacts>

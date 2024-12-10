@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestionnaire de Contacts</title>
+</head>
+<body>
+    <div id="app"> 
+
+        <!-- Sélecteur pour choisir l'action à réaliser -->
+        <select id="actionSelect">
+            <option value="">Que voulez-vous faire ?</option>
+            <option value="list">Lister les contacts</option>
+            <option value="add">Ajouter un contact</option>
+            <option value="count">Voir le nombre de contacts</option>
+        </select>
+
+        <!-- Formulaire pour ajouter un nouveau contact -->
+        <form id="addContactForm" style="display:none;">
+            <input type="text" id="inputNom" placeholder="Nom" required>
+            <input type="text" id="inputPrenom" placeholder="Prénom" required>
+            <input type="text" id="inputTel" placeholder="Numéro" required>
+            <button type="submit">Valider</button>
+        </form>
+
+        <!-- le contenu dynamique -->
+        <div id="contentDisplay"></div>
+    </div>
+
+    <!-- Lien JavaScript -->
+    <script src="script.js"></script> 
+</body>
+</html>
